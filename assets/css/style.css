@@ -28,6 +28,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: : space-between;
+    align-items: baseline;
 }
 
 #menu {
@@ -53,7 +56,22 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display:none ;
+    top:100%;
 }
+
+/*Nav Toggle*/
+#nav-toggle:checked~nav {
+    display:block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
 
 header a{
     text-decoration: none;
@@ -73,6 +91,7 @@ main {
     background-color: rgb(0, 204, 255);
     /*Make main content take up rest of space*/
     flex:1 0 auto;
+    margin-top: 40px;
 }
 
 /*Footer*/

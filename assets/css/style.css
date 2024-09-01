@@ -22,23 +22,23 @@ body{
 
 /*Header*/
 header {
-    background-color: aliceblue;
+    background-color: lightcoral;
 }
 
 h1{
     font-family:'Oswald', sans-serif ;
-    
+
 }
 
 /*Main Content*/
 main {
-    background-color: blue;
+    background-color: rgb(0, 204, 255);
     /*Make main content take up rest of space*/
     flex:1 0 auto;
 }
 
 /*Footer*/
 footer {
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 144);
     
 }

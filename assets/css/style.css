@@ -1,3 +1,7 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 /*Asterick wildcard selector to override default styles added by browser*/
 *{
     padding: 0;
@@ -12,12 +16,18 @@ body{
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: 'lato', open-sans;
 }
 
 
 /*Header*/
 header {
     background-color: aliceblue;
+}
+
+h1{
+    font-family:'Oswald', sans-serif ;
+    
 }
 
 /*Main Content*/

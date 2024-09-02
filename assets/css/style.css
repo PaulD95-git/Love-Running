@@ -88,10 +88,16 @@ h1{
 
 /*Main Content*/
 main {
-    background-color: rgb(0, 204, 255);
+    
     /*Make main content take up rest of space*/
     flex:1 0 auto;
     margin-top: 40px;
+}
+
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url("../images/love runner.webp") no-repeat center center/cover;
 }
 
 /*Footer*/
